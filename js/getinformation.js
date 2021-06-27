@@ -44,11 +44,18 @@ function renderPokemon(pokeData, page){
             
             let pokeTypes = document.createElement('ul') 
 
-             
+            
             createTypes(pokeData.types, pokeTypes)
 
 
             pokeContainer.append(pokeName, pokeNumber, pokeTypes);   
+
+
+            console.log();
+
+            checkPokemonType(pokeData.types[0]['type']['name'], pokeContainer);
+
+            
 
             allPokemonContainer.appendChild(pokeContainer);
     }
@@ -92,6 +99,35 @@ document.getElementById('next').addEventListener('click', function(){
 });
 
 
+
+function checkPokemonType(pokeType, container){
+    if(pokeType == 'fire')
+        container.classList.add('fireColor');
+    else if(pokeType == 'water')
+        container.classList.add('waterColor');
+    else if(pokeType == 'flying')
+        container.classList.add('flyColor');
+    else if(pokeType == 'bug')
+        container.classList.add('bugColor');
+    else if(pokeType == 'normal')
+        container.classList.add('normalColor');
+    else if(pokeType == 'poison')
+        container.classList.add('poisonColor');
+    else if(pokeType == 'electric')
+        container.classList.add('electricColor');
+    else if(pokeType == 'ground')
+        container.classList.add('groundColor');
+    else if(pokeType == 'fairy')
+        container.classList.add('fairyColor');
+    else if(pokeType == 'fighting')
+        container.classList.add('fightingColor');
+    else if(pokeType == 'psychic')
+        container.classList.add('psychicColor');
+    else if(pokeType == 'ice')
+        container.classList.add('iceColor');
+    else if(pokeType == 'rock')
+        container.classList.add('rockColor');
+}
 
 
 

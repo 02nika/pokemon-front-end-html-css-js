@@ -309,6 +309,8 @@ input[type=radio], [type=checkbox] {
     margin: 25px 25px;
     animation: triaMove 4s infinite;
 }
+
+
 @keyframes triaMove {
     0%   {margin-left: 0px;}
     25% {margin-left: 90%; transform: rotate(540deg);}
@@ -318,3 +320,60 @@ input[type=radio], [type=checkbox] {
 }
 
 
+
+/* type colors */
+
+.fireColor:hover{
+    background-color: #f70000;
+}
+
+.waterColor:hover{
+    background-color: #44eeff;
+}
+
+.flyColor:hover{
+    background-color: #aefff3;
+}
+
+.bugColor:hover{
+    background-color: #a2b78e;
+}
+
+.normalColor:hover{
+    background-color: #cccccc;
+}
+
+.poisonColor:hover{
+    background-color: purple;
+}
+
+.electricColor:hover{
+    background-color: rgb(226, 226, 0);
+}
+
+.groundColor:hover{
+    background-color: #654320;
+}
+
+
+.fairyColor:hover{
+    background-color: #971944;
+}
+
+.fightingColor:hover{
+    background-color: #994024;
+}
+
+.psychicColor:hover{
+    background-color: #f81c91;
+}
+
+.iceColor:hover{
+    background-color: #9ec9cc;
+}
+
+.rockColor:hover{
+    background-color: #353644;
+}
+
+/* #353644 */

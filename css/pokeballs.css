@@ -1,0 +1,15 @@
+.pokeballs {
+    position: fixed;
+}
+
+.triaMoveImg{
+    width: 60px;
+    animation: triaMove 1.7s both;
+    margin-left: 0px;
+}
+
+
+@keyframes triaMove {
+    0%   {margin-top: 0px;}
+    100% {margin-top: 1000px; transform: rotate(600deg);}
+}
