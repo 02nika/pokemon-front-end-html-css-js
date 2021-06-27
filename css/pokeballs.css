@@ -11,5 +11,10 @@
 
 @keyframes triaMove {
     0%   {margin-top: 0px;}
-    100% {margin-top: 1000px; transform: rotate(600deg);}
+    100% {margin-top: 1000px; transform: rotate(600deg); }
+}
+
+
+.pokeballsNone {
+    display: none;
 }
